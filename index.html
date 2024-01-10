@@ -9,11 +9,12 @@
   <meta name="keywords"
     content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
   <meta name="author" content="elemis">
-  <title>Winsel Startup</title>
-  <link rel="shortcut icon" href="./assets/img/favicon.png">
+  <title>Riza Fadli DPRD 2024-2029</title>
+  <!-- <link rel="shortcut icon" href="./assets/img/favicon.png"> -->
   <link rel="stylesheet" href="./assets/css/plugins.css">
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/colors/purple.css">
+  <link rel="stylesheet" href="./assets/css/colors/aqua.css">
+  <link rel="preload" href="./assets/css/fonts/dm.css" as="style" onload="this.rel='stylesheet'">
   <style>
     @media (min-width: 992px) {
       .navbar-nav>.nav-item>.nav-link {
@@ -37,706 +38,247 @@
 
 <body>
   <div class="content-wrapper">
-    <header class="wrapper bg-soft-primary">
-      <nav class="navbar navbar-expand-lg center-logo transparent position-absolute navbar-dark">
-        <div class="container justify-content-between align-items-center">
-          <div class="d-flex flex-row w-100 justify-content-between align-items-center d-lg-none">
-            <div class="navbar-brand"><a href="./index.html">
-                <img class="logo-dark" src="./assets/img/logo-winsel-small.png"
-                  srcset="./assets/img/logo-winsel-small.png 2x" alt="" />
-                <img class="logo-light" src="./assets/img/logo-winsel-small.png"
-                  srcset="./assets/img/logo-winsel-small.png 2x" alt="" />
-              </a></div>
-            <div class="navbar-other ms-auto">
-              <ul class="navbar-nav flex-row align-items-center">
-                <li class="nav-item d-lg-none">
-                  <button class="hamburger offcanvas-nav-btn"><span></span></button>
+    <header id="homes" class="wrapper bg-light pt-1">
+      <nav class="navbar navbar-expand-lg classic transparent navbar-light">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100">
+            <a class="nav-link scroll active" href="#homes">
+              <img src="./assets/img/navbar.jpg" srcset="./assets/img/navbar.jpg 10x" alt="" />
+            </a>
+          </div>
+          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-header d-lg-none">
+              <h3 class="text-white fs-30 mb-0">Riza Fadli</h3>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+              <ul class="navbar-nav">
+                <!-- <li class="nav-item dropdown dropdown-mega">
+                  <a class="nav-link active" hidden href="#homes">Homes</a>
+                </li> -->
+                <li class="nav-item dropdown dropdown-mega">
+                  <a class="nav-link scroll" href="#about">About Me</a>
+                </li>
+                <li class="nav-item dropdown dropdown-mega">
+                  <a class="nav-link scroll" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item dropdown dropdown-mega">
+                  <a class="nav-link scroll" href="#contact">Contact</a>
                 </li>
               </ul>
               <!-- /.navbar-nav -->
             </div>
-            <!-- /.navbar-other -->
+            <!-- /.offcanvas-body -->
           </div>
-          <!-- /.d-flex -->
-          <div class="navbar-collapse-wrapper d-flex flex-row align-items-center w-100">
-            <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
-              <div class="offcanvas-header mx-lg-auto order-0 order-lg-1 d-lg-flex px-lg-15">
-                <a href="./index.html" class="transition-none d-none d-lg-flex">
-                  <img class="logo-dark" src="./assets/img/logo-winsel-small.png"
-                    srcset="./assets/img/logo-winsel-small.png 2x" alt="" />
-                  <img class="logo-light" src="./assets/img/logo-winsel-small.png"
-                    srcset="./assets/img/logo-winsel-small.png 2x" alt="" />
-                </a>
-                <h3 class="text-white fs-30 mb-0 d-lg-none">Winsel-2</h3>
-                <button type="button" class="btn-close btn-close-white d-lg-none" data-bs-dismiss="offcanvas"
-                  aria-label="Close"></button>
-              </div>
-              <div class="w-100 order-1 order-lg-0 d-lg-flex offcanvas-body">
-                <ul class="navbar-nav ms-lg-auto">
-                  <li class="nav-item dropdown dropdown-mega">
-                    <a class="nav-link scroll active" href="#homes">Homes</a>
-                  </li>
-                  <li class="nav-item dropdown dropdown-mega">
-                    <a class="nav-link scroll" href="#about">About</a>
-                  </li>
-                  <li class="nav-item dropdown dropdown-mega">
-                    <a class="nav-link scroll" href="#testimonials">Testimonials</a>
-                  </li>
-                </ul>
-                <!-- /.navbar-nav -->
-              </div>
-              <div class="w-100 order-3 order-lg-2 d-lg-flex offcanvas-body">
-                <ul class="navbar-nav me-lg-auto">
-                  <li class="nav-item dropdown dropdown-mega">
-                    <a class="nav-link scroll" href="#projects">Projects</a>
-                  </li>
-                  <li class="nav-item dropdown dropdown-mega">
-                    <a class="nav-link scroll" href="#pricing">Pricing</a>
-                  </li>
-                  <li class="nav-item dropdown dropdown-mega">
-                    <a class="nav-link scroll" href="#join">Join</a>
-                  </li>
-                </ul>
-                <!-- /.navbar-nav -->
-              </div>
-              <div class="offcanvas-body d-lg-none order-4 mt-auto">
-                <div class="offcanvas-footer">
-                  <div>
-                    <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>
-                    <br /> 00 (123) 456 78 90 <br />
-                    <nav class="nav social social-white mt-4">
-                      <a href="#"><i class="uil uil-twitter"></i></a>
-                      <a href="#"><i class="uil uil-facebook-f"></i></a>
-                      <a href="#"><i class="uil uil-dribbble"></i></a>
-                      <a href="#"><i class="uil uil-instagram"></i></a>
-                      <a href="#"><i class="uil uil-youtube"></i></a>
-                    </nav>
-                    <!-- /.social -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- /.navbar-collapse -->
+          <!-- /.navbar-collapse -->
+          <div class="navbar-other ms-lg-4">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <li class="nav-item d-lg-none">
+                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+              </li>
+            </ul>
+            <!-- /.navbar-nav -->
           </div>
-          <!-- /.navbar-collapse-wrapper -->
+          <!-- /.navbar-other -->
         </div>
         <!-- /.container -->
       </nav>
       <!-- /.navbar -->
+      <div class="offcanvas offcanvas-top bg-light" id="offcanvas-search" data-bs-scroll="true">
+        <div class="container d-flex flex-row py-6">
+          <form class="search-form w-100">
+            <input id="search-form" type="text" class="form-control" placeholder="Type keyword and hit enter">
+          </form>
+          <!-- /.search-form -->
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.offcanvas -->
     </header>
     <!-- /header -->
-    <section id="homes" class="video-wrapper bg-overlay bg-overlay-gradient px-0 mt-0 min-vh-80">
-      <video poster="./assets/img/photos/movie2.jpg" src="./assets/media/movie2.mp4" autoplay loop playsinline
-        muted></video>
-      <div class="video-content">
-        <div class="container text-center">
+    <section class="wrapper bg-light">
+      <div class="container">
+        <div class="card bg-soft-orange rounded-4 mt-2 mb-13 mb-md-17">
+          <div class="card-body p-md-10 py-xl-11 px-xl-15">
+            <div class="row gx-lg-8 gx-xl-0 gy-10 align-items-center">
+              <div class="col-lg-6 order-lg-2 d-flex position-relative">
+                <img class="img-fluid ms-auto mx-auto me-lg-8" src="./assets/img/rizafadli.png"
+                  srcset="./assets/img/rizafadli.png 8x" alt="" data-cue="fadeIn">
+                <!--/div -->
+              </div>
+              <!--/column -->
+              <div class="col-lg-6 text-center text-lg-start" data-cues="slideInDown" data-group="page-title"
+                data-delay="600">
+                <!-- <P class="display-2 mb-5">HI, SAYA RIZA FADLI, ST.</P> -->
+                <h2 class="text-red mb-5">HI, SAYA RIZA FADLI, ST.</h2>
+                <p class="display-4 text-black fs-lg lh-sm mb-2 pe-xl-10">Calon anggota DPRD DKI Jakarta</p>
+                <p class="display-4 text-black fs-lg lh-sm mb-2 pe-xl-10">Dapil VII Jakarta Selatan</p>
+                <p class="display-4 text-black fs-lg lh-sm mb-2 pe-xl-10">(Setiabudi, Pesanggrahan, Cilandak, Kebayoran
+                  Lama, Kebayoran
+                  Baru)</p>
+                <p class="display-4 text-black fs-lg lh-sm mb-2 pe-xl-10">Periode 2024 - 2029</p>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/.card-body -->
+        </div>
+        <!--/.card -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section id="projects" class="wrapper bg-soft-orange">
+      <div class="overflow-hidden">
+        <div class="container py-14 py-md-16">
           <div class="row">
-            <div class="col-lg-8 col-xl-6 text-center text-white mx-auto">
-              <h1 class="display-1 fs-54 text-white mb-5"><span class="rotator-zoom">Rapid Solutions,Innovative
-                  Thinking,Top-Notch Support</span></h1>
-              <p class="lead fs-24 mb-0 mx-xxl-8">We are a digital agency specializing in web design, mobile
-                development and seo optimization.</p>
+            <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
+              <h1 class="display-2 text-center mt-2 mb-10">Projects</h1>
             </div>
-            <!-- /column -->
+            <!--/column -->
           </div>
-        </div>
-        <!-- /.video-content -->
-      </div>
-      <!-- /.content-overlay -->
-    </section>
-    <!-- /section -->
-    <section id="about" class="wrapper bg-light angled upper-end lower-end">
-      <div class="container pb-14 pb-md-16">
-        <div class="row">
-          <div class="col-12 mt-n15">
-            <figure class="rounded"><img src="./assets/img/photos/about5.jpg"
-                srcset="./assets/img/photos/about5@2x.jpg 2x" alt="" /></figure>
-            <div class="row" data-cue="slideInUp">
-              <div class="col-xl-10 mx-auto">
-                <div
-                  class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-300 text-white mt-n5 mt-lg-0 mt-lg-n50p mb-lg-n50p border-radius-lg-top"
-                  data-image-src="./assets/img/photos/bg2.jpg">
-                  <div class="card-body p-9 p-xl-10">
-                    <div class="row align-items-center counter-wrapper gy-4 text-center">
-                      <div class="col-6 col-lg-3">
-                        <h3 class="counter counter-lg text-white">7518</h3>
-                        <p>Completed Projects</p>
-                      </div>
-                      <!--/column -->
-                      <div class="col-6 col-lg-3">
-                        <h3 class="counter counter-lg text-white">3472</h3>
-                        <p>Satisfied Customers</p>
-                      </div>
-                      <!--/column -->
-                      <div class="col-6 col-lg-3">
-                        <h3 class="counter counter-lg text-white">2184</h3>
-                        <p>Expert Employees</p>
-                      </div>
-                      <!--/column -->
-                      <div class="col-6 col-lg-3">
-                        <h3 class="counter counter-lg text-white">4523</h3>
-                        <p>Awards Won</p>
-                      </div>
-                      <!--/column -->
+          <!--/.row -->
+          <div class="swiper-container grid-view nav-bottom nav-color mb-14 text-center" data-margin="30"
+            data-dots="false" data-nav="true" data-items-md="2" data-items-xs="1">
+            <div class="swiper overflow-visible pb-2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card shadow-lg">
+                    <figure class="card-img-top overlay overlay-1">
+                      <img class="img-fluid" src="./assets/img/projects-1.jpeg" srcset="./assets/img/projects-1.jpeg 2x"
+                        alt="" />
+                    </figure>
+                    <div class="card-body p-6">
+                      <h3 class="fs-21 mb-1">Lucy & David</h3>
+                      <ul class="post-meta fs-16 mb-0">
+                        <!-- <li>5 Photos</li>
+                        <li>Wedding</li> -->
+                      </ul>
                     </div>
-                    <!--/.row -->
+                    <!--/.card-body -->
                   </div>
-                  <!--/.card-body -->
+                  <!-- /.card -->
                 </div>
-                <!--/.card -->
-              </div>
-              <!-- /column -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /column -->
-        </div>
-        <!-- /.row -->
-        <div class="swiper-container clients mt-5 mb-5" data-margin="30" data-dots="false" data-loop="true"
-          data-autoplay="true" data-autoplaytime="1" data-drag="false" data-speed="5000" data-items-xxl="7"
-          data-items-xl="6" data-items-lg="5" data-items-md="4" data-items-sm="3" data-items-xs="3">
-          <div class="swiper pe-none">
-            <div class="swiper-wrapper ticker">
-              <div class="swiper-slide px-5"><img src="./assets/img/brands/c1.png" alt="" /></div>
-              <div class="swiper-slide px-5"><img src="./assets/img/brands/c2.png" alt="" /></div>
-              <div class="swiper-slide px-5"><img src="./assets/img/brands/c3.png" alt="" /></div>
-              <div class="swiper-slide px-5"><img src="./assets/img/brands/c4.png" alt="" /></div>
-              <div class="swiper-slide px-5"><img src="./assets/img/brands/c5.png" alt="" /></div>
-              <div class="swiper-slide px-5"><img src="./assets/img/brands/c6.png" alt="" /></div>
-              <div class="swiper-slide px-5"><img src="./assets/img/brands/c7.png" alt="" /></div>
-              <div class="swiper-slide px-5"><img src="./assets/img/brands/c8.png" alt="" /></div>
-              <div class="swiper-slide px-5"><img src="./assets/img/brands/c9.png" alt="" /></div>
-              <div class="swiper-slide px-5"><img src="./assets/img/brands/c10.png" alt="" /></div>
-              <div class="swiper-slide px-5"><img src="./assets/img/brands/c11.png" alt="" /></div>
-            </div>
-            <!--/.swiper-wrapper -->
-          </div>
-          <!-- /.swiper -->
-        </div>
-        <!-- /.swiper-container -->
-        <div class="row gx-lg-8 gy-8 mt-5 mt-md-12 mt-lg-0 mb-15 align-items-center">
-          <div class="col-lg-6 order-lg-2">
-            <div class="row gx-md-5 gy-5" data-cues="fadeIn" data-group="images">
-              <div class="col-md-4 offset-md-2 align-self-end">
-                <figure class="rounded"><img src="./assets/img/photos/g1.jpg" srcset="./assets/img/photos/g1@2x.jpg 2x"
-                    alt=""></figure>
-              </div>
-              <!--/column -->
-              <div class="col-md-6 align-self-end">
-                <figure class="rounded"><img src="./assets/img/photos/g2.jpg" srcset="./assets/img/photos/g2@2x.jpg 2x"
-                    alt=""></figure>
-              </div>
-              <!--/column -->
-              <div class="col-md-6 offset-md-1">
-                <figure class="rounded"><img src="./assets/img/photos/g3.jpg" srcset="./assets/img/photos/g3@2x.jpg 2x"
-                    alt=""></figure>
-              </div>
-              <!--/column -->
-              <div class="col-md-4 align-self-start">
-                <figure class="rounded"><img src="./assets/img/photos/g4.jpg" srcset="./assets/img/photos/g4@2x.jpg 2x"
-                    alt=""></figure>
-              </div>
-              <!--/column -->
-            </div>
-            <!--/.row -->
-          </div>
-          <!--/column -->
-          <div class="col-lg-6">
-            <h2 class="display-4 mb-3">What We Do?</h2>
-            <p class="lead fs-lg mb-8 pe-xxl-2">The full service we are offering is <span
-                class="underline">specifically</span> designed to meet your business needs and projects.</p>
-            <div class="row gx-xl-10 gy-6" data-cues="slideInUp" data-group="services">
-              <div class="col-md-6 col-lg-12 col-xl-6">
-                <div class="d-flex flex-row">
-                  <div>
-                    <div class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-5"> <i
-                        class="uil uil-phone-volume"></i> </div>
-                  </div>
-                  <div>
-                    <h4 class="mb-1">24/7 Support</h4>
-                    <p class="mb-0">Nulla vitae elit libero pharetra augue dapibus.</p>
-                  </div>
-                </div>
-              </div>
-              <!--/column -->
-              <div class="col-md-6 col-lg-12 col-xl-6">
-                <div class="d-flex flex-row">
-                  <div>
-                    <div class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-5"> <i
-                        class="uil uil-shield-exclamation"></i> </div>
-                  </div>
-                  <div>
-                    <h4 class="mb-1">Secure Payments</h4>
-                    <p class="mb-0">Vivamus sagittis lacus augue laoreet vel.</p>
-                  </div>
-                </div>
-              </div>
-              <!--/column -->
-              <div class="col-md-6 col-lg-12 col-xl-6">
-                <div class="d-flex flex-row">
-                  <div>
-                    <div class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-5"> <i
-                        class="uil uil-laptop-cloud"></i> </div>
-                  </div>
-                  <div>
-                    <h4 class="mb-1">Daily Updates</h4>
-                    <p class="mb-0">Cras mattis consectetur purus sit amet.</p>
-                  </div>
-                </div>
-              </div>
-              <!--/column -->
-              <div class="col-md-6 col-lg-12 col-xl-6">
-                <div class="d-flex flex-row">
-                  <div>
-                    <div class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-5"> <i
-                        class="uil uil-chart-line"></i> </div>
-                  </div>
-                  <div>
-                    <h4 class="mb-1">Market Research</h4>
-                    <p class="mb-0">Aenean lacinia bibendum nulla sed consectetur.</p>
-                  </div>
-                </div>
-              </div>
-              <!--/column -->
-            </div>
-            <!--/.row -->
-          </div>
-          <!--/column -->
-        </div>
-        <!--/.row -->
-        <h2 class="display-4 mb-3">How We Do It?</h2>
-        <p class="lead fs-lg mb-8">We make your spending <span class="underline">stress-free</span> for you to have the
-          perfect control.</p>
-        <div class="row gx-lg-8 gx-xl-12 gy-6 process-wrapper line" data-cues="slideInUp" data-group="process">
-          <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none mb-4"><span
-                class="number">01</span></span>
-            <h4 class="mb-1">Concept</h4>
-            <p>Nulla vitae elit libero elit non porta gravida eget metus cras. Aenean eu leo quam. Pellentesque ornare.
-            </p>
-          </div>
-          <!--/column -->
-          <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary pe-none mb-4"><span
-                class="number">02</span></span>
-            <h4 class="mb-1">Prepare</h4>
-            <p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis.</p>
-          </div>
-          <!--/column -->
-          <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none mb-4"><span
-                class="number">03</span></span>
-            <h4 class="mb-1">Retouch</h4>
-            <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero.</p>
-          </div>
-          <!--/column -->
-          <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none mb-4"><span
-                class="number">04</span></span>
-            <h4 class="mb-1">Finalize</h4>
-            <p>Integer posuere erat, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <!--/column -->
-        </div>
-        <!--/.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
-    <section id="testimonials" class="wrapper image-wrapper bg-image bg-overlay bg-overlay-300 text-white"
-      data-image-src="./assets/img/photos/bg2.jpg">
-      <div class="container py-14 py-md-17">
-        <h2 class="display-4 mb-5 text-white text-center">Happy Customers</h2>
-        <div class="row">
-          <div class="col-md-10 col-lg-8 mx-auto" data-cue="fadeIn">
-            <div class="swiper-container dots-light dots-closer text-center mb-6" data-margin="30" data-dots="true">
-              <div class="swiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <blockquote class="border-0 fs-lg mb-0">
-                      <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta
-                        felis euismod semper. Cras justo odio consectetur adipiscing dapibus.”</p>
-                      <div class="blockquote-details justify-content-center">
-                        <img class="rounded-circle w-12" src="./assets/img/avatars/te1.jpg"
-                          srcset="./assets/img/avatars/te1@2x.jpg 2x" alt="" />
-                        <div class="info">
-                          <h6 class="mb-1 text-white">Coriss Ambady</h6>
-                          <p class="mb-0">Financial Analyst</p>
-                        </div>
-                      </div>
-                    </blockquote>
-                  </div>
-                  <!--/.swiper-slide -->
-                  <div class="swiper-slide">
-                    <blockquote class="border-0 fs-lg mb-0">
-                      <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta
-                        felis euismod semper. Cras justo odio consectetur adipiscing dapibus.”</p>
-                      <div class="blockquote-details justify-content-center">
-                        <img class="rounded-circle w-12" src="./assets/img/avatars/te2.jpg"
-                          srcset="./assets/img/avatars/te2@2x.jpg 2x" alt="" />
-                        <div class="info">
-                          <h6 class="mb-1 text-white">Cory Zamora</h6>
-                          <p class="mb-0">Marketing Specialist</p>
-                        </div>
-                      </div>
-                    </blockquote>
-                  </div>
-                  <!--/.swiper-slide -->
-                  <div class="swiper-slide">
-                    <blockquote class="border-0 fs-lg mb-0">
-                      <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta
-                        felis euismod semper. Cras justo odio consectetur adipiscing dapibus.”</p>
-                      <div class="blockquote-details justify-content-center">
-                        <img class="rounded-circle w-12" src="./assets/img/avatars/te3.jpg"
-                          srcset="./assets/img/avatars/te3@2x.jpg 2x" alt="" />
-                        <div class="info">
-                          <h6 class="mb-1 text-white">Nikolas Brooten</h6>
-                          <p class="mb-0">Sales Manager</p>
-                        </div>
-                      </div>
-                    </blockquote>
-                  </div>
-                  <!--/.swiper-slide -->
-                </div>
-                <!--/.swiper-wrapper -->
-              </div>
-              <!--/.swiper -->
-            </div>
-            <!-- /.swiper-container -->
-          </div>
-          <!-- /column -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
-    <section id="projects" class="wrapper bg-light">
-      <div class="container py-14 py-md-16">
-        <div class="row align-items-center mb-7">
-          <div class="col-md-8 col-lg-8 col-xl-7 col-xxl-6 pe-lg-17">
-            <h2 class="display-4 mb-3">Recent Projects</h2>
-            <p class="lead fs-lg">We love to turn ideas into <span class="underline">beautiful things</span>.</p>
-          </div>
-          <!--/column -->
-        </div>
-        <!--/.row -->
-        <div class="projects-tiles">
-          <div class="project grid grid-view">
-            <div class="row gx-md-8 gx-xl-12 gy-10 gy-md-12 isotope" data-cue="slideInUp">
-              <div class="item col-md-5">
-                <figure class="lift rounded mb-6"><a href="../project-1"> <img src="./assets/img/project-4.jpg"
-                      srcset="./assets/img/project-4@2x.jpg 2x" alt="" /></a>
-                </figure>
-                <div class="post-category mb-2 text-purple">Winsel</div>
-                <h3 class="post-title">Company Profile</h3>
-              </div>
-              <!-- /.item -->
-              <div class="item col-md-7 mt-md-17">
-                <figure class="lift rounded mb-6"><a href="../project-2"> <img src="./assets/img/project-5.jpg"
-                      srcset="./assets/img/project-5@2x.jpg 2x" alt="" /></a>
-                </figure>
-                <div class="post-category mb-2 text-orange">WP</div>
-                <h3 class="post-title">Wedding Photography</h3>
-              </div>
-              <!-- /.item -->
-              <!-- <div class="item col-md-5">
-                <figure class="lift rounded mb-6"><a href="./single-project.html"> <img
-                      src="./assets/img/photos/rp3.jpg" srcset="./assets/img/photos/rp3@2x.jpg 2x" alt="" /></a>
-                </figure>
-                <div class="post-category mb-2 text-red">Notebook</div>
-                <h3 class="post-title">Magna Tristique Inceptos</h3>
-              </div> -->
-              <!-- /.item -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.project -->
-        </div>
-        <!-- /.projects-tiles -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
-    <section class="wrapper bg-gray">
-      <div class="container py-14 py-md-16">
-        <div class="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0 mb-10">
-          <div class="col-lg-4 mt-lg-2">
-            <h3 class="display-4 mb-3 pe-xxl-5">Trusted by over 300+ clients</h3>
-            <p class="lead fs-lg mb-0 pe-xxl-5">We <span class="underline">bring solutions</span> to make life easier
-              for our customers.</p>
-          </div>
-          <!-- /column -->
-          <div class="col-lg-8">
-            <div class="row row-cols-2 row-cols-md-4 gx-0 gx-md-8 gx-xl-12 gy-12" data-cues="fadeIn"
-              data-group="clients">
-              <div class="col">
-                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/z1.png" alt="" />
-                </figure>
-              </div>
-              <!--/column -->
-              <div class="col">
-                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/z2.png" alt="" />
-                </figure>
-              </div>
-              <!--/column -->
-              <div class="col">
-                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/z3.png" alt="" />
-                </figure>
-              </div>
-              <!--/column -->
-              <div class="col">
-                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/z4.png" alt="" />
-                </figure>
-              </div>
-              <!--/column -->
-              <div class="col">
-                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/z5.png" alt="" />
-                </figure>
-              </div>
-              <!--/column -->
-              <div class="col">
-                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/z6.png" alt="" />
-                </figure>
-              </div>
-              <!--/column -->
-              <div class="col">
-                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/z7.png" alt="" />
-                </figure>
-              </div>
-              <!--/column -->
-              <div class="col">
-                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/z8.png" alt="" />
-                </figure>
-              </div>
-              <!--/column -->
-            </div>
-            <!--/.row -->
-          </div>
-          <!-- /column -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
-    <section id="pricing" class="wrapper bg-light angled upper-end lower-end">
-      <div class="container py-14 py-md-16">
-        <div class="row gy-6 gy-lg-0 mb-10 mb-md-18">
-          <div class="col-lg-4">
-            <h2 class="display-4 mt-lg-18 mb-3">Our Pricing</h2>
-            <p class="lead fs-lg">We offer <span class="underline">great prices</span>, premium and quality products for
-              your business.</p>
-            <p>Enjoy a <a href="#" class="hover">free 30-day trial</a> and experience the full service. No credit card
-              required!</p>
-            <a href="#" class="btn btn-primary rounded-pill mt-2">See All Prices</a>
-          </div>
-          <!--/column -->
-          <div class="col-lg-7 offset-lg-1 pricing-wrapper">
-            <div class="pricing-switcher-wrapper switcher justify-content-start justify-content-lg-end">
-              <p class="mb-0 pe-3">Monthly</p>
-              <div class="pricing-switchers">
-                <div class="pricing-switcher pricing-switcher-active"></div>
-                <div class="pricing-switcher"></div>
-                <div class="switcher-button bg-primary"></div>
-              </div>
-              <p class="mb-0 ps-3">Yearly <span class="text-red">(Save 30%)</span></p>
-            </div>
-            <div class="row gy-6 mt-5">
-              <div class="col-md-6">
-                <div class="pricing card">
-                  <div class="card-body pb-12">
-                    <div class="prices text-dark">
-                      <div class="price price-show justify-content-start"><span class="price-currency">$</span><span
-                          class="price-value">19</span> <span class="price-duration">mo</span></div>
-                      <div class="price price-hide price-hidden justify-content-start"><span
-                          class="price-currency">$</span><span class="price-value">199</span> <span
-                          class="price-duration">yr</span></div>
+                <!--/.swiper-slide -->
+                <div class="swiper-slide">
+                  <div class="card shadow-lg">
+                    <figure class="card-img-top overlay overlay-1">
+                      <img class="img-fluid" src="./assets/img/projects-2.jpeg" srcset="./assets/img/projects-2.jpeg 2x"
+                        alt="" />
+                    </figure>
+                    <div class="card-body p-6">
+                      <h3 class="fs-21 mb-1">Stacy & Thomas</h3>
+                      <ul class="post-meta fs-16 mb-0">
+                        <!-- <li>8 Photos</li>
+                        <li>Wedding</li> -->
+                      </ul>
                     </div>
-                    <!--/.prices -->
-                    <h4 class="card-title mt-2">Premium Plan</h4>
-                    <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8">
-                      <li><i class="uil uil-check"></i><span><strong>5</strong> Projects </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>200MB</strong> Storage </span></li>
-                      <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                      <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24 <strong>Support</strong></span></li>
-                    </ul>
-                    <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
+                    <!--/.card-body -->
                   </div>
-                  <!--/.card-body -->
+                  <!-- /.card -->
                 </div>
-                <!--/.pricing -->
-              </div>
-              <!--/column -->
-              <div class="col-md-6 popular">
-                <div class="pricing card">
-                  <div class="card-body pb-12">
-                    <div class="prices text-dark">
-                      <div class="price price-show justify-content-start"><span class="price-currency">$</span><span
-                          class="price-value">49</span> <span class="price-duration">mo</span></div>
-                      <div class="price price-hide price-hidden justify-content-start"><span
-                          class="price-currency">$</span><span class="price-value">499</span> <span
-                          class="price-duration">yr</span></div>
+                <!--/.swiper-slide -->
+                <div class="swiper-slide">
+                  <div class="card shadow-lg">
+                    <figure class="card-img-top overlay overlay-1">
+                      <video width="100%" height="auto" controls>
+                        <source src="./assets/img/projects-3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </figure>
+                    <div class="card-body p-6">
+                      <h3 class="fs-21 mb-1">Katherine & Jack</h3>
+                      <ul class="post-meta fs-16 mb-0">
+                        <!-- <li>7 Photos</li>
+                        <li>Couples</li> -->
+                      </ul>
                     </div>
-                    <!--/.prices -->
-                    <h4 class="card-title mt-2">Corporate Plan</h4>
-                    <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8">
-                      <li><i class="uil uil-check"></i><span><strong>20</strong> Projects </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>300K</strong> API Access </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>500MB</strong> Storage </span></li>
-                      <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                      <li><i class="uil uil-check"></i><span> 7/24 <strong>Support</strong></span></li>
-                    </ul>
-                    <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
+                    <!--/.card-body -->
                   </div>
-                  <!--/.card-body -->
+                  <!-- /.card -->
                 </div>
-                <!--/.pricing -->
+                <!--/.swiper-slide -->
               </div>
-              <!--/column -->
+              <!--/.swiper-wrapper -->
             </div>
-            <!--/.row -->
+            <!-- /.swiper -->
           </div>
-          <!--/column -->
+          <!-- /.swiper-container -->
         </div>
-        <!--/.row -->
-
+        <!-- /.container -->
       </div>
-      <!-- /.container -->
+      <!-- /.overflow-hidden -->
     </section>
     <!-- /section -->
-    <section id="join" class="wrapper bg-gray angled upper-end lower-end">
-      <div class="container py-14 py-md-16">
-        <div class="row gy-10 gx-lg-8 gx-xl-12 align-items-center">
-          <div class="col-lg-7 position-relative">
-            <div class="row gx-md-5 gy-5">
-              <div class="col-md-6">
-                <figure class="rounded mt-md-10 position-relative" data-cue="fadeIn" data-delay="300"><img
-                    src="./assets/img/photos/g5.jpg" srcset="./assets/img/photos/g5@2x.jpg 2x" alt=""></figure>
-              </div>
-              <!--/column -->
-              <div class="col-md-6">
-                <div class="row gx-md-5 gy-5">
-                  <div class="col-md-12 order-md-2">
-                    <figure class="rounded" data-cue="fadeIn" data-delay="1100"><img src="./assets/img/photos/g6.jpg"
-                        srcset="./assets/img/photos/g6@2x.jpg 2x" alt=""></figure>
-                  </div>
-                  <!--/column -->
-                  <div class="col-md-10">
-                    <div class="card bg-pale-primary text-center" data-cue="fadeIn" data-delay="800">
-                      <div class="card-body py-11 counter-wrapper">
-                        <h3 class="counter text-nowrap">5000+</h3>
-                        <p class="mb-0">Satisfied Customers</p>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!--/.card -->
-                  </div>
-                  <!--/column -->
-                </div>
-                <!--/.row -->
-              </div>
-              <!--/column -->
-            </div>
-            <!--/.row -->
-          </div>
-          <!--/column -->
-          <div class="col-lg-5">
-            <h2 class="display-4 mb-3">Let’s Talk</h2>
-            <p class="lead fs-lg">Let’s make something great together. We are <span class="underline">trusted
-                by</span>
-              over 5000+ clients. Join them by using our services and grow your business.</p>
-            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis
-              interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
-              justo sit amet risus.</p>
-            <a href="#" class="btn btn-primary rounded-pill mt-2">Join Us</a>
-          </div>
-          <!--/column -->
-        </div>
-        <!--/.row -->
-      </div>
-    </section>
   </div>
   <!-- /.content-wrapper -->
-  <footer class="bg-dark text-inverse">
-    <div class="container py-13 py-md-15">
-      <div class="mt-10"></div>
+  <footer class="bg-light">
+    <div class="container pt-14 pt-md-17 pb-7">
       <div class="row gy-6 gy-lg-0">
-        <div class="col-md-4 col-lg-3">
+        <div class="col-lg-4">
           <div class="widget">
-            <img class="mb-4" src="./assets/img/logo-winsel.png" srcset="./assets/img/logo-winsel.png 2x" alt="" />
-            <p class="mb-4">© 2023 Winsel Startup. <br class="d-none d-lg-block" />All rights reserved.</p>
-            <nav class="nav social social-white">
-              <a href="#"><i class="uil uil-twitter"></i></a>
-              <a href="#"><i class="uil uil-facebook-f"></i></a>
-              <a href="#"><i class="uil uil-dribbble"></i></a>
-              <a href="#"><i class="uil uil-instagram"></i></a>
-              <a href="#"><i class="uil uil-youtube"></i></a>
-            </nav>
-            <!-- /.social -->
+            <h3 class="h2 mb-3 ">Join the Community</h3>
+            <p class="lead mb-5">Let's make something great together. We are trusted by over 5000+ clients. Join them by
+              using our services and grow your business.</p>
+            <a href="#" class="btn  btn-primary rounded-pill">Join Us</a>
           </div>
           <!-- /.widget -->
         </div>
         <!-- /column -->
-        <div class="col-md-4 col-lg-3">
+        <div class="col-md-4 col-lg-2 offset-lg-2">
           <div class="widget">
-            <h4 class="widget-title text-white mb-3">Get in Touch</h4>
-            <address class="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom</address>
-            <a href="mailto:#">info@email.com</a><br /> 00 (123) 456 78 90
-          </div>
-          <!-- /.widget -->
-        </div>
-        <!-- /column -->
-        <div class="col-md-4 col-lg-3">
-          <div class="widget">
-            <h4 class="widget-title text-white mb-3">Learn More</h4>
-            <ul class="list-unstyled  mb-0">
-              <li><a class="nav-link scroll" href="#about">About</a></li>
-              <li><a class="nav-link scroll" href="#testimonials">Testimonials</a></li>
-              <li><a class="nav-link scroll" href="#projects">Projects</a></li>
-              <li><a class="nav-link scroll" href="#pricing">Pricing</a></li>
-              <li><a class="nav-link scroll" href="#join">Join</a></li>
+            <h4 class="widget-title  mb-3">Need Help?</h4>
+            <ul class="list-unstyled text-reset mb-0">
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Get Started</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
             </ul>
           </div>
           <!-- /.widget -->
         </div>
         <!-- /column -->
-        <div class="col-md-12 col-lg-3">
+        <div class="col-md-4 col-lg-2">
           <div class="widget">
-            <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
-            <p class="mb-5">Subscribe to our newsletter to get our news & deals delivered to you.</p>
-            <div class="newsletter-wrapper">
-              <!-- Begin Mailchimp Signup Form -->
-              <div id="mc_embed_signup2">
-                <form
-                  action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
-                  method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form"
-                  class="validate dark-fields" target="_blank" novalidate>
-                  <div id="mc_embed_signup_scroll2">
-                    <div class="mc-field-group input-group form-floating">
-                      <input type="email" value="" name="EMAIL" class="required email form-control"
-                        placeholder="Email Address" id="mce-EMAIL2">
-                      <label for="mce-EMAIL2">Email Address</label>
-                      <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2"
-                        class="btn btn-primary ">
-                    </div>
-                    <div id="mce-responses2" class="clear">
-                      <div class="response" id="mce-error-response2" style="display:none"></div>
-                      <div class="response" id="mce-success-response2" style="display:none"></div>
-                    </div>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                        name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
-                    <div class="clear"></div>
-                  </div>
-                </form>
-              </div>
-              <!--End mc_embed_signup-->
-            </div>
-            <!-- /.newsletter-wrapper -->
+            <h4 class="widget-title  mb-3">Learn More</h4>
+            <ul class="list-unstyled text-reset mb-0">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Features</a></li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-4 col-lg-2">
+          <div class="widget">
+            <h4 class="widget-title  mb-3">Get in Touch</h4>
+            <address>Moonshine St. 14/05 Light City, London, United Kingdom</address>
+            <a href="mailto:first.last@email.com" class="link-body">info@email.com</a><br /> 00 (123) 456 78 90
           </div>
           <!-- /.widget -->
         </div>
         <!-- /column -->
       </div>
       <!--/.row -->
+      <hr class="mt-13 mt-md-15 mb-7" />
+      <div class="d-md-flex align-items-center justify-content-between">
+        <p class="mb-2 mb-lg-0">© 2023 Sandbox. All rights reserved.</p>
+        <nav class="nav social  text-md-end">
+          <a href="#"><i class="uil uil-twitter"></i></a>
+          <a href="#"><i class="uil uil-facebook-f"></i></a>
+          <a href="#"><i class="uil uil-dribbble"></i></a>
+          <a href="#"><i class="uil uil-instagram"></i></a>
+          <a href="#"><i class="uil uil-youtube"></i></a>
+        </nav>
+        <!-- /.social -->
+      </div>
+      <!-- /div -->
     </div>
     <!-- /.container -->
   </footer>
