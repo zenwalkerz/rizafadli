@@ -45,9 +45,9 @@
 </head>
 
 <body>
-  <div class="content-wrapper">
-    <header id="homes" class="wrapper bg-light pt-1">
-      <nav class="navbar navbar-expand-lg classic transparent navbar-light">
+  <div class="content-wrapper bg-soft-orange">
+    <header id="homes" class="wrapper bg-soft-orange pt-1">
+      <nav class="navbar navbar-expand-lg classic transparent navbar-light" style="opacity: 0.8;">
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
             <a class="nav-link scroll active" href="#homes">
@@ -366,7 +366,7 @@
         <!--/.modal-dialog -->
       </div>
       <!--/.modal -->
-      <div class="offcanvas offcanvas-top bg-light" id="offcanvas-search" data-bs-scroll="true">
+      <div class="offcanvas offcanvas-top bg-soft-orange" id="offcanvas-search" data-bs-scroll="true">
         <div class="container d-flex flex-row py-6">
           <form class="search-form w-100">
             <input id="search-form" type="text" class="form-control" placeholder="Type keyword and hit enter">
@@ -379,7 +379,7 @@
       <!-- /.offcanvas -->
     </header>
     <!-- /header -->
-    <section class="wrapper bg-light">
+    <section class="wrapper bg-soft-orange">
       <div class="container">
         <div class="card bg-soft-orange rounded-4 mt-2 mb-13 mb-md-17">
           <div class="card-body p-md-10 py-xl-11 px-xl-15">
@@ -414,7 +414,7 @@
     </section>
     <!-- /section -->
     <section id="about" class="wrapper image-wrapper bg-image bg-overlay bg-overlay-300 text-white"
-      data-image-src="./assets/img/photos/bg13.jpg">
+      style="opacity: 0.8;">
       <div class="container py-14 py-md-17">
         <h2 class="display-4 mb-5 text-white text-center">Tentang Saya</h2>
         <div class="row">
@@ -504,7 +504,7 @@
       <!-- /.container -->
     </section>
     <!-- /section -->
-    <section id="gallery" class="wrapper bg-light">
+    <section id="gallery" class="wrapper bg-soft-orange">
       <div class="overflow-hidden">
         <div class="container py-10 py-md-12">
           <div class="row">
@@ -532,8 +532,8 @@
                 <div class="swiper-slide">
                   <div class="card shadow-lg">
                     <figure class="card-img-top overlay overlay-1">
-                      <img class="img-fluid" src="./assets/img/gallery/foto-2.jpg"
-                        srcset="./assets/img/gallery/foto-2.jpg 2x" alt="" />
+                      <img class="img-fluid" src="./assets/img/gallery/foto-2.jpeg"
+                        srcset="./assets/img/gallery/foto-2.jpeg 2x" alt="" />
                     </figure>
                     <!--/.card-body -->
                   </div>
@@ -543,14 +543,34 @@
                 <div class="swiper-slide">
                   <div class="card shadow-lg">
                     <figure class="card-img-top overlay overlay-1">
-                      <img class="img-fluid" src="./assets/img/gallery/foto-3.jpeg"
-                        srcset="./assets/img/gallery/foto-3.jpeg 2x" alt="" />
+                      <img class="img-fluid" src="./assets/img/gallery/foto-3.jpg"
+                        srcset="./assets/img/gallery/foto-3.jpg 2x" alt="" />
                     </figure>
                     <!--/.card-body -->
                   </div>
                   <!-- /.card -->
                 </div>
                 <!--/.swiper-slide -->
+                <div class="swiper-slide">
+                  <div class="card shadow-lg">
+                    <figure class="card-img-top overlay overlay-1">
+                      <img class="img-fluid" src="./assets/img/gallery/foto-6.jpg"
+                        srcset="./assets/img/gallery/foto-6.jpg 2x" alt="" />
+                    </figure>
+                    <!--/.card-body -->
+                  </div>
+                  <!-- /.card -->
+                </div>
+                <div class="swiper-slide">
+                  <div class="card shadow-lg">
+                    <figure class="card-img-top overlay overlay-1">
+                      <img class="img-fluid" src="./assets/img/gallery/foto-7.jpg"
+                        srcset="./assets/img/gallery/foto-7.jpg 2x" alt="" />
+                    </figure>
+                    <!--/.card-body -->
+                  </div>
+                  <!-- /.card -->
+                </div>
                 <!--/.swiper-slide -->
                 <div class="swiper-slide">
                   <div class="card shadow-lg">
@@ -568,17 +588,6 @@
                     <figure class="card-img-top overlay overlay-1">
                       <img class="img-fluid" src="./assets/img/gallery/foto-5.jpg"
                         srcset="./assets/img/gallery/foto-5.jpg 2x" alt="" />
-                    </figure>
-                    <!--/.card-body -->
-                  </div>
-                  <!-- /.card -->
-                </div>
-                <!--/.swiper-slide -->
-                <div class="swiper-slide">
-                  <div class="card shadow-lg">
-                    <figure class="card-img-top overlay overlay-1">
-                      <img class="img-fluid" src="./assets/img/gallery/foto-6.jpg"
-                        srcset="./assets/img/gallery/foto-6.jpg 2x" alt="" />
                     </figure>
                     <!--/.card-body -->
                   </div>
@@ -659,19 +668,6 @@
                   <!-- /.card -->
                 </div>
                 <!--/.swiper-slide -->
-                <div class="swiper-slide">
-                  <div class="card shadow-lg">
-                    <figure class="card-img-top overlay overlay-1">
-                      <video width="50%" height="auto" controls>
-                        <source src="./assets/img/gallery/video-5.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                      </video>
-                    </figure>
-                    <!--/.card-body -->
-                  </div>
-                  <!-- /.card -->
-                </div>
-                <!--/.swiper-slide -->
               </div>
               <!--/.swiper-wrapper -->
             </div>
@@ -684,23 +680,27 @@
       <!-- /.overflow-hidden -->
     </section>
     <!-- /section -->
+    <section id="contact" class="wrapper image-wrapper bg-image bg-overlay bg-overlay-300 text-white"
+      data-image-src="./assets/img/photos/bg13.jpg">
+      <div class="container py-14 py-md-17">
+        <h3 class="h2 mt-15 mb-3 text-white text-center">Hubungi Saya</h3>
+        <p class="lead mb-1 text-center">Anda dapat menghubungi saya melalui,</p>
+        <p class="lead mb-17 text-center">Email : <a href="mailto:info@rizafadli.com">info@rizafadli.com</a></p>
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto" data-cue="fadeIn">
+            <!-- /.swiper-container -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
   </div>
   <!-- /.content-wrapper -->
-  <footer id="contact" class="bg-light">
-    <div class="container pt-14 pt-md-17 pb-7">
-      <div class="row gy-6 gy-lg-0">
-        <div class="col-lg-4">
-          <div class="widget">
-            <h3 class="h2 mb-3 ">Hubungi Saya</h3>
-            <p class="lead mb-1">Anda dapat menghubungi saya melalui,</p>
-            <p class="lead mb-5">Email : <a href="mailto:info@rizafadli.com">info@rizafadli.com</a></p>
-          </div>
-          <!-- /.widget -->
-        </div>
-        <!-- /column -->
-      </div>
-      <!--/.row -->
-      <hr class=" mt-8 mt-md-12 mb-7" />
+  <footer class="bg-soft-orange">
+    <div class="container bg-soft-orange pt-7 pt-md-7 pb-5">
       <div class="d-md-flex align-items-center justify-content-between">
         <p class="mb-2 mb-lg-0">© 2023 Rizafadli.</p>
         <!-- <nav class="nav social  text-md-end">
@@ -723,6 +723,40 @@
   </div>
   <script src="./assets/js/plugins.js"></script>
   <script src="./assets/js/theme.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Function to set background image based on screen size
+      function setBackgroundImage() {
+        var imageUrl = $(window).width() <= 767 ? "./assets/img/gallery/rizafadli2.jpeg" : "./assets/img/gallery/rizafadli.jpeg";
+        $("#about").css("background-image", "url('" + imageUrl + "')");
+      }
+
+      // Set initial background image
+      setBackgroundImage();
+
+      // Update background image on window resize
+      $(window).resize(function () {
+        setBackgroundImage();
+      });
+    });
+
+    $(document).ready(function () {
+      // Function to set background image based on screen size
+      function setBackgroundImage() {
+        var imageUrl = $(window).width() <= 767 ? "./assets/img/gallery/test2.jpg" : "./assets/img/gallery/test.jpg";
+        $("#contact").css("background-image", "url('" + imageUrl + "')");
+      }
+
+      // Set initial background image
+      setBackgroundImage();
+
+      // Update background image on window resize
+      $(window).resize(function () {
+        setBackgroundImage();
+      });
+    });
+  </script>
 </body>
 
 </html>
